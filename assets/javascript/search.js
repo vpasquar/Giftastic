@@ -38,7 +38,7 @@ function displayGifs() {
 
 	var queryTopic = $(this).attr("data-name");   
 
-	var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=58c03f6c7b9047b390ec22639b2b50e6&q="
+	var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=58c03f6c7b9047b390ec22639b2b50e6&q="
 	 + queryTopic +"&limit=10"
 
       
